@@ -1,6 +1,6 @@
 # Week 2 Project
 
-# A Group Chat Application
+# Group Chat Application Backend
 
 you are tasked with building the backend of the new WhatsApp application that will take over the chatting industry.
 
@@ -56,8 +56,9 @@ just allow the reset of private messages so that if sensitive data was sent it c
 
 ### - Presistance
 
-- All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
-- just write everything to json files and use them throughout your program
+All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
+
+just write everything to json files and use them throughout your program
 
 ## Bonus
 
