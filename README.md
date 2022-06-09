@@ -1,6 +1,4 @@
-# Week 2 Project
-
-# Group Chat Application Backend
+# Group Chat Application Backend - Week 2 Project
 
 you are tasked with building the backend of the new WhatsApp application that will take over the chatting industry.
 
