@@ -6,7 +6,7 @@ you are tasked with building the backend of the new WhatsApp application that wi
 
 ## Features to support
 
-### -* Group chatting
+### - Group chatting
 
 the idea here is to allow four groups as static routes
 
@@ -30,7 +30,7 @@ the idea here is to allow four groups as static routes
 each route should have a way to get the messages and send to it, update,delete messages.
 it is up to you how you implement it make sure that have almost all the main features that WhatsApp provides
 
-### -* Private message chatting (which should create a seprate room for them)
+### - Private message chatting (which should create a seprate room for them)
 
 we need each user to be able to communicate with another user in private...
 meaning that when a person tries to get his/her messages it only shows messages exchanged between the two users
@@ -50,14 +50,13 @@ an example is the following:
 
 and so on
 
-### -* Allow deleting full private converstions
+### - Allow deleting full private converstions
 
 just allow the reset of private messages so that if sensitive data was sent it can get fully removed.
 
+### - Presistance
 
-### -* Presistance
-
-- All the messages and information should not get reset on a server restart, so to save them in case of a shutdown, 
+- All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
 - just write everything to json files and use them throughout your program
 
 ## Bonus
@@ -89,5 +88,7 @@ in a real enviourment ip addresses will be different by nature.
 
 you can test your program by sending requests from your mobile, or by hardcoding an ip address for each request you send to simulate different users.
 
-Please don't hastate to contact your instructors for questions
+## Conclusion
+
+Please don't hastate to contact your instructors for questions  
 have fun and good luck :)
