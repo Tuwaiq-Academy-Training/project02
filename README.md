@@ -75,7 +75,7 @@ another for editing your own and another for updating and one for removing your 
 
 whether this be in a group or private, make sure to not allow the users to delete other people's messages, only allow them to do so on their messages
 
-- Presistance
+- persistence
 
 All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
 
