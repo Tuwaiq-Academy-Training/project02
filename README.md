@@ -52,12 +52,6 @@ and so on
 
 just allow the reset of private messages so that if sensitive data was sent it can get fully removed.
 
-### - Presistance
-
-All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
-
-just write everything to json files and use them throughout your program
-
 ## Bonus
 
 - block users using ip addresses
@@ -80,6 +74,12 @@ another for editing your own and another for updating and one for removing your 
 - deleteing a specific message
 
 whether this be in a group or private, make sure to not allow the users to delete other people's messages, only allow them to do so on their messages
+
+- Presistance
+
+All the messages and information should not get reset on a server restart, so to save them in case of a shutdown,
+
+just write everything to json files and use them throughout your program
 
 ## Testing
 
