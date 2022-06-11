@@ -1,0 +1,19 @@
+[
+    {
+         "phase":"1",
+         "course":"math"
+    
+       
+    },
+    {    "phase":"2",
+        "course":"bio"
+       
+        
+    },
+    {
+         "phase":"3",
+         "course":"javascript"
+      
+       
+    }
+]
