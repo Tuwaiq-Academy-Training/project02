@@ -8,9 +8,31 @@ let privatedata=require('./data/private.json');
 var merge = require('merge'),
     original, cloned;
 let bodypars=require('body-parser');
+let pmsg;
+let pmsg2;
 
 app.use(express.json());
 //view announcements
+
+//serach methode for all data
+// app.get('/search/:name',(req,res)=>{
+//     let search=req.params.name;
+//     let data=[{}];
+//     data.join(ancdata);
+//     data.join(hmdata);
+//     data.join(qadata);
+//     data.join(ranchdata);
+//     let result=[{}];
+//     for(let i=0;i<data.length;i++){
+//     result= data.filter((i)=> i.name==search);
+//     res.json(result);
+//     }
+//     //res.json(result);
+//     console.log(result);
+//     res.send("=====================")
+//     console.log(data);
+// }
+// );
 app.get('/announcements',(req,res)=>{
     res.json(ancdata);
 })
@@ -120,12 +142,21 @@ app.put('/random-chatting/up/:name',(req,res)=>{
     )
     //view private chat
     app.get('/private-chatting/:name/:to',(req,res,next)=>{
-        privatmsg= privatedata.filter((elm)=> elm.name==req.params.name);
-        privatmsg1=privatedata.filter((elm)=> elm.to==req.params.to);
+
+         pmsg= privatedata.filter((elm)=> elm.name==req.params.name&&elm.to==req.params.to);
+        //privatmsg1=privatedata.filter((elm)=> elm.to==!req.params.to);
         //merg is packge to merge two jsons together
-        let p= merge({privatmsg, privatmsg1});
-        res.json(p);
+        
+      
        
+       next();
+    }  ,(req,res)=>{
+         pmsg2= privatedata.filter((elm)=> elm.to==req.params.name);
+
+        let p= merge({pmsg,pmsg2});
+        console.log(pmsg,pmsg2);
+        //console.log(privatmsg1);
+        res.json(p);
     }
 
     ) 
@@ -138,8 +169,7 @@ app.put('/random-chatting/up/:name',(req,res)=>{
             "name":req.params.name,
             "msg":req.params.msg
             });
-          //  next();
-
+            res.json(privatedata);
     }
     
 
@@ -159,14 +189,6 @@ app.put('/random-chatting/up/:name',(req,res)=>{
          res.json(privatedata);
          }
             )
-
-
-
-
-
-
-
-
 
 
 app.listen(3000,()=>{
