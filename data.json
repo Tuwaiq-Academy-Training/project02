@@ -1,0 +1,62 @@
+[
+    {
+    "name" : "ali",
+    "id" : 1,
+    "message" : "hello sara"
+    },
+    {
+        "name" : "lamia",
+        "id" : 2,
+        "message" : "hey mohammed"
+        },
+        {
+            "name" : "khaled",
+            "id" : 3,
+            "message" : "how are you"
+            },
+            {
+                "name" : "nora",
+                "id" : 4,
+                "message" : "i have a question"
+                },
+                {
+                    "name" : "saleh",
+                    "id" : 5,
+                    "message" : "i am new here"
+                    },
+                    {
+                        "name" : "ahmed",
+                        "id" : 6,
+                        "message" : "what about our homework"
+                        },
+                        {
+                            "name" : "yazeed",
+                            "id" : 7,
+                            "message" : "when is the class start"
+                            },
+                            {
+                                "name" : "amani",
+                                "id" : 8,
+                                "message" : "who is free i have question"
+                                },
+
+                                {"name": "sara",
+                                    "messageFrom": "mohammed",
+                                    "message":"hello sara" 
+                                    },
+                                    
+                                    {"name": "sara",
+                                        "messageFrom": "sultan",
+                                        "message":"hello sara"
+                                        },
+                            
+                                    {"name": "mohammed",
+                                        "messageFrom": "sultan",
+                                        "message":"hello mohammed"
+                                        },
+                                        {"name": "mohammed",
+                                            "messageFrom": "sara",
+                                            "message":"hello mohammed"
+                                            }
+                            ]
+                            
