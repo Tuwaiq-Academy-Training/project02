@@ -1,0 +1,25 @@
+[
+    {
+        "id":6,
+        "name":"turky",
+        "message":"Is Java an OOP? ?"
+    },
+    
+    {
+        "id":7,
+        "name":"fasil",
+        "message":"Yes  "
+    },
+
+    {
+        "id":11,
+        "name":"waleed",
+        "message":"Is javascript used on the web?? ?"
+    },
+    
+    {
+        "id":12,
+        "name":"yousef",
+        "message":"Yes  "
+    }
+    ] 
