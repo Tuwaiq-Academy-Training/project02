@@ -1,0 +1,40 @@
+
+[
+    {
+    "id": 1,
+    "name1": "Sadeem announcements",
+    "message1":"your friend sended a message",
+    "message2": "You have received messages from your cousin's group",
+    "message3":"you have a voise massage from jana"
+    },
+    {
+        "id": 2,
+        "name2": "HW groub",
+        "message4": "please remind me whats the homework",
+        "message5":"What the home work for today?"
+        },
+        
+        { 
+            "id" : 3,
+            "name3": "chat q and a",
+            "messageQ": "Hi how are you?",
+            "messageA": "hi i am good! what about you??"
+            
+            },
+    
+            {
+                "id":4,
+                "name4": "random chat",
+                "messageD": "Hi i miss you!!"
+                
+                },
+        
+                {
+                    "id":5,
+                    "name5": "Private message",
+                    "message6": "hi feda ",
+                    "message7": "hi suha"
+                    
+                }
+            
+    ]
