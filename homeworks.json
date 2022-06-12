@@ -1,0 +1,30 @@
+[ 
+    
+    {
+        "name":"Noura",
+        "id":0,
+        "homeworks":"hello everyone, does anyone understand homework of Math ?"
+    },
+    { 
+        "name":"Areej",
+        "id":1,
+        "homeworks":"And I did not understand it either"
+
+    },
+    {
+        "name":"Noor",
+        "id":2,
+        "homeworks": "It is simple, find factorial of a whole number n is definde as the product of that number with evre whole number till 1"
+
+    },
+    {
+        "name":"Rashid", 
+        "id":3,
+        "homeworks":"Is there an assignmet for a anthropology"
+    },
+    {
+       "name":"saleh",
+       "id":4,
+       "homeworks":"there is no homework"
+    }
+]

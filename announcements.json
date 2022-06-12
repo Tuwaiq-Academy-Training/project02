@@ -1,0 +1,29 @@
+[
+    {
+        "name":"Ahmad",
+        "id":0,
+        "message":"Hi Everyone,With the extension of spring break, and our campus’s commitment to protecting the health and safety of students, staff and faculty, I have had to make some adjustments to your course. Aswe continue on through the rest of the semester, here are the things that you should know about Introduction to Music:This course will continue to be fully online.and I have changed some assignment due dates, and removed some assignments to keep"
+    },
+    {
+        "name":"Sara",
+        "id":1,
+        "message":"Hi Everyone,Welcome to KESL 0315! Our class will be meeting from 7:00 PM to 8:50 PM on Monday, Tuesday, Wednesday, and Thursday. However, instead of having a classroom on campus, we will be meeting online in a computer program called Webex Trainings.  To get to the program"
+       
+    },
+    {
+        "name":"Amjad",
+        "id":2,
+        "message":"Hi Everyone,Welcome to Math 1030! I am looking forward to being your instructor for the upcoming term. A few items I want to make you aware of as you start the class: the Orientation module must be completed before you can begin working on the rest of the course material. In the orientation module you can find the syllabus with all of the information regarding grades, due dates, class expectations, and how to navigate within this course. Each week you should complete one module."
+     
+    },
+    {
+        "name":"Lamia",
+        "id":3,
+        "message":"Greetings students! Welcome to Anthropology 1020! I hope you're all as happy about Spring semester starting as I am! Hopefully right? :D This week we'll be taking it pretty easy as you acquaint yourself with the course, your classmates and your instructor. Do be prepared for the tempo to amp up come next Monday"
+    },
+    {
+        "name":"Ali",
+        "id":4,
+        "message":"Hi Everyone,Welcome to Fitness for Life! I am so glad you have decided to take this course. Please be sure to start with the Course Orientation module to begin. This will clarify and hopefully get us all started on the right foot. Take some time to go through the syllabus and due dates as well. Please don’t hesitate to get in touch with me with any questions or concerns you might have. Here’s to a great semester!"
+    }
+]

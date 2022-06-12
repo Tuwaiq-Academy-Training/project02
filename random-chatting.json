@@ -1,0 +1,31 @@
+[
+    {
+        "name":"Ahmed",
+        "id":0,
+        "roomchats":"Hi Everyone, My name is Ahmad and I am a teacher "
+    },
+    { 
+        "name":"Areej",
+        "id":1,
+       "roomchats": "hello , and I am Areej , I am student "
+
+    },
+    {
+        "name":"Noor",
+        "id":2,
+        "roomchats": "hi , I am noor , I am math student"
+
+    },
+    {
+        "name":"Rashid", 
+        "id":3,
+        "roomchats":"hi, my name is rashid and I am student anthropology"
+    },
+    
+
+    {
+        "name":"Ali",
+        "id":4,
+        "roomchats":"Hi Everyone,My name is Ali and I am a teacher "
+    }
+]

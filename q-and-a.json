@@ -1,0 +1,31 @@
+[
+    {
+        "name":"Noura",
+        "id":0,
+        "qanda":"Average of ten positive numbers is x. If each number is increased by 15%, then x"
+        
+    },
+    {
+        "name":"Noura",
+        "id":0,
+        "qanda":"Average of ten positive numbers is x. If each number is increased by 15%, then x"
+        
+    },
+    {
+        "name":"Sara",
+        "id":1,
+        "qanda":"If the numbers are increased by 15%, then the Average also increases by 15%"
+    },
+    {
+        "name":"Noor",
+        "id":2,
+        "qanda":"At what rate percentage per annum will the simple interest on a sum of money be 7/9 of the amount in 7 years?"
+    },
+    {
+        "name":"Lamia",
+        "id":3,
+        "qanda":"50%"
+        
+    }
+
+]
